@@ -7,6 +7,6 @@ It has one method:
  
  Assuming that the starting point is at the point (a, a), (center of the circle), we randomly draw points
  whose coordinates belong to the set (0, a). Next, by calculating the length
- of the segment from the drawing point to the center (a, a), we check whether this length is less than 
+ of the segment from the drawing point to the center (0.5*a, 0.5*a), we check whether this length is less than 
  or equal to the radius. If so, increment the shoots.
  
